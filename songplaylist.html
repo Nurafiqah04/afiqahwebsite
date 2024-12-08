@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: cornsilk;}
+h1   {background-color: pink;}
+p    {color: brown;}
+</style>
+
+<head>
+<body>
+    <h1>Playlist</h1>
+	<p> My favourite playlist &#127901; &#127911;</p>
+
+<head>
+     <title>Song Playlist</title>
+	 <link rel="stylesheet" type= "text/css" href= "style.css">
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: cornsilk;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="images/song 1.jpg" alt="song 1" style="width:100%">
+      <h3>Semata Karenamu - Mario G.Klau </h3>
+	  <audio controls>
+     <source src="semata karenamu.mp4" type="audio/mpeg">
+     Your browser does not support the audio element.
+    </audio>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/song 2.jpg" alt="cooking" style="width:100%">
+      <h3>Somebody to You - The Vamps (feat. Demi Lovato)</h3>
+      <audio controls>
+     <source src="somebody to you.mp4" type="audio/mpeg">
+     Your browser does not support the audio element.
+    </audio>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/song 3.jpg" alt="reading" style="width:100%">
+      <h3>Perempuan - Faizul Sany </h3>
+      <audio controls>
+     <source src="perempuan faizul sany.mp4" type="audio/mpeg">
+     Your browser does not support the audio element.
+    </audio>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/song 4.jpg" alt="outing" style="width:100%">
+      <h3>24/7, 365 - elijah woods</h3>
+	   <audio controls>
+     <source src="elijah woods song.mp4" type="audio/mpeg">
+     Your browser does not support the audio element.
+    </audio>
+    </div>
+  </div>
+ 
+</div>
+<!-- END GRID -->
+</div>
+
+  
+<a href="experiences.html">Next page</a>
+</body>
+</html>
+ 
+ 
+ 
