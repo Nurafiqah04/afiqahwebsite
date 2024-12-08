@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: cornsilk;}
+h1   {background-color: pink;}
+p    {color: brown;}
+</style>
+
+<head>
+<body>
+    <h1>Hobbies</h1>
+	<p> My favourite hobbies </p>
+
+<head>
+     <title>Hobbies</title>
+	 <link rel="stylesheet" type= "text/css" href= "style.css">
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: cornsilk;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="images/movie bestie.jpg" alt="movie bestie" style="width:100%">
+      <h3>Movie &#127916;</h3>
+      <p>My friends and I like to watch cinema together on weekends. We will set a time to watch the cinema when everyone is avalaible from their respective schedules.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/cooking.jpg" alt="cooking" style="width:100%">
+      <h3>Cooking &#129474;</h3>
+      <p>I like to cook at home. My favorite dish is Chinese fried rice because the recipe is very easy to make.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/reading.jpg" alt="reading" style="width:100%">
+      <h3>Reading &#128214;</h3>
+      <p>Reading one of my hobbies in a day. I like to read a variety of books, especially novels with an adventure and thriller theme.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/outing.jpg" alt="outing" style="width:100%">
+      <h3>Outing &#127879;</h3>
+      <p>My friends and I will go outing together to see nature when we have completed a task as a self-reward to release stress.</p>
+    </div>
+  </div>
+  <div class="column">
+	<video width="450" controls>
+	 <source src= "images/decibel teaser.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+    <h3>Favourite movie &#128640;</h3>
+	</div>
+</div>
+<!-- END GRID -->
+</div>
+
+  
+<a href="songplaylist.html">Next page</a>
+</body>
+</html>
+ 
